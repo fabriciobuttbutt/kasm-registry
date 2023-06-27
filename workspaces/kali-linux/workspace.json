@@ -1,0 +1,29 @@
+{
+    "description": "Kali-rolling.",
+    "docker_registry": "https://docker.io/",
+    "image_src": "kali_linux.png",
+    "name": "docker.io/kalilinux/kali-rolling",
+    "run_config": {
+      "hostname": "kali",
+      "entrypoint": [
+        "/root"
+      ],
+      "user": 0
+    },
+    "exec_config": {
+      "go": {
+        "cmd": "echo 'welcome'"
+      }
+    },
+    "categories": [
+      "Shell"
+    ],
+    "friendly_name": "Kali",
+    "architecture": [
+      "amd64"
+    ],
+    "compatibility": [
+      "1.13.x"
+    ],
+    "uncompressed_size_mb": 1730 
+  }
