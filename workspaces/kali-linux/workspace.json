@@ -1,6 +1,6 @@
 {
     "description": "Kali-rolling.",
-    "docker_registry": "https://docker.io/",
+    "docker_registry": "https://fabriciobuttbutt.github.io/kasm-registry/",
     "image_src": "kali_linux.png",
     "name": "docker.io/kalilinux/kali-rolling",
     "run_config": {
