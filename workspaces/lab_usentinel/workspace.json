@@ -1,7 +1,7 @@
 {
     "description": "Ubuntu with the XFCE desktop environment.",
     "docker_registry": "https://ghcr.io/",
-    "image_src": "SentienlOne_color.jpeg",
+    "image_src": "SentienlOne_color.png",
     "name": "lab_usentinel:v1.00",
     "run_config": {
       "security_opt": ["seccomp=unconfined"],
