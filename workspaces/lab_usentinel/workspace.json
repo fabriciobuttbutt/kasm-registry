@@ -8,7 +8,9 @@
       "entrypoint": [
         "/kasminit"
       ],
-      "user": 0
+      "user": 1000,
+      "hostname": "kasm",
+      "privileged": true
     },
     "exec_config": {},
     "categories": [
@@ -16,11 +18,12 @@
     ],
     "friendly_name": "Ubuntu S1",
     "architecture": [
-      "amd64",
-      "arm64"
+      "amd64"
     ],
     "compatibility": [
       "1.13.x"
     ],
     "uncompressed_size_mb": 1730 
   }
+
+  
