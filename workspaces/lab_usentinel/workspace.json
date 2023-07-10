@@ -1,0 +1,26 @@
+{
+    "description": "Ubuntu with the XFCE desktop environment.",
+    "docker_registry": "https://ghcr.io/",
+    "image_src": "SentienlOne_color.jpeg",
+    "name": "lab_usentinel:v1.00",
+    "run_config": {
+      "security_opt": ["seccomp=unconfined"],
+      "entrypoint": [
+        "/kasminit"
+      ],
+      "user": 0
+    },
+    "exec_config": {},
+    "categories": [
+      "Desktop"
+    ],
+    "friendly_name": "Ubuntu S1",
+    "architecture": [
+      "amd64",
+      "arm64"
+    ],
+    "compatibility": [
+      "1.13.x"
+    ],
+    "uncompressed_size_mb": 1730 
+  }
