@@ -1,5 +1,5 @@
 {
-    "description": "Ubuntu with the XFCE desktop environment.",
+    "description": "Ubuntu Jammy Clean.",
     "docker_registry": "https://ghcr.io/",
     "image_src": "SentienlOne_color.png",
     "name": "lab_usentinel:v1.00",
