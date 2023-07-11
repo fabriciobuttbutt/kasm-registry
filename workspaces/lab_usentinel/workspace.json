@@ -1,7 +1,7 @@
 {
     "description": "Ubuntu Jammy Clean with SentinelOne.",
     "image_src": "SentienlOne_color.png",
-    "name": "lab_usentinel:v1.00",
+    "name": "lab_usentinel:v2.00",
     "run_config": {
       "hostname": "kasm",
       "privileged": true
