@@ -1,12 +1,17 @@
 {
     "description": "Ubuntu Jammy Clean with SentinelOne.",
     "image_src": "SentienlOne_color.png",
-    "name": "lab_usentinel:v2.00",
+    "name": "lab_sentinel:v23.1.2.9",
     "run_config": {
-      "hostname": "kasm",
+      "hostname": "sentinel_v23.1.2.9",
       "privileged": true
     },
-    "exec_config": {},
+    "exec_config": {
+      "first_launch":{
+           "user":"sentinel", 
+           "cmd":""
+       }
+     },
     "categories": [
       "Desktop",
       "S1"
