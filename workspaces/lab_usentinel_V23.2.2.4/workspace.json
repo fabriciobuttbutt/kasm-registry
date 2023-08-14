@@ -1,0 +1,23 @@
+{
+    "description": "Ubuntu Jammy Clean with SentinelOne.",
+    "image_src": "SentienlOne_color.png",
+    "name": "lab_sentinel:v23.2.2.4",
+    "run_config": {
+      "hostname": "sentinel_v23.2.2.4",
+      "privileged": true
+    },
+    "categories": [
+      "Desktop",
+      "S1"
+    ],
+    "friendly_name": "Ubuntu S1",
+    "architecture": [
+      "amd64"
+    ],
+    "compatibility": [
+      "1.13.x"
+    ],
+    "uncompressed_size_mb": 3200
+  }
+
+  
